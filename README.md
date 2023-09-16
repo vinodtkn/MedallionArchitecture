@@ -29,7 +29,7 @@ Overall, the medallion architecture is a powerful and flexible data architecture
 
 # Sample Project
 
-I have added a sample project here, it has a simple  demonstration of Medallion architecture. The project has 3 jupyter files, 1 for each layer. The programming language used is python. The project is executed in Databricks environment, wherein I have automated the execution of all 3 transformation layers using Databricks Workflows. 
+I have added a sample project here, it has a simple  demonstration of Medallion architecture. The project has 3 jupyter files, 1 for each layer. The programming language used is python. The project is executed in Databricks cloud environment, wherein I have automated the execution of all 3 transformation layers using Databricks Workflows. Since I have used Workflows to automate the full data transformation process, the intermediate data produced in each layer is stored as parquet file inside Databricks environment.
 
 **Project Name:** Heka (ancient Egyptian God associated with health and wellness)
 
@@ -47,6 +47,8 @@ This research work proposes a new comprehensive and huge android malware dataset
 PS: I wouldnt have implemented the whole impact scenarios, you are free to improvise the code from where i have left :)
 
 # Dataset
+
+I have commited the dataset in the repository for using it along with the code (gz file), the complete dataset is available in the below link.
 
 https://www.unb.ca/cic/datasets/andmal2020.html (scroll to the end of the page - check for "Download the dataset" button") 
 
