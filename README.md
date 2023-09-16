@@ -6,6 +6,8 @@ The medallion architecture consists of three distinct layers:
 2. Silver layer: The silver layer contains processed and validated data. The data in the silver layer is typically structured and ready for analysis.
 3. Gold layer: The gold layer contains enriched data that is optimized for specific business needs. The data in the gold layer is typically aggregated and denormalized.
 
+![bronze-silver-gold](https://github.com/vinodtkn/MedallionArchitecture/assets/82138543/fb2e7768-7c89-4947-930d-7a5d91afecb7)
+
 Data flows through the medallion architecture in a linear fashion, from bronze to silver to gold. At each layer, the data is processed and transformed to improve its quality and usability.
 The bronze layer is the simplest layer in the medallion architecture. It is simply a storage layer for raw data. The data in the bronze layer is typically stored in a data lake, such as Amazon S3 or Google Cloud Storage.
 
